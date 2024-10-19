@@ -1,0 +1,78 @@
+.custom-btn3 {
+    background-color: brown;
+    color: #ccc;
+}
+
+.custom-btn4 {
+    background-color: #555;
+    color: #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    /* Fusionner les bordures des cellules */
+    width: 100%;
+    /* Largeur totale du tableau */
+    margin-left: 200px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    /* Bordure de 1 pixel avec une couleur grise */
+    padding: 8px;
+    /* Espacement à l'intérieur des cellules */
+    text-align: left;
+    /* Alignement du texte à gauche */
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Couleur de fond des en-têtes de colonne */
+}
+
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #555;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.button-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn-primary:active {
+    background-color: white;
+}
+
+.btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:active {
+    background-color: white;
+}
+
+.ctl {
+    margin-left: 120px;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-width: 1260px;
+    max-height: 450px;
+}
+
+.btn_cl {
+    color: white;
+    margin-left: 1100px;
+    background-color: cadetblue;
+}
+
+.pos {
+    margin-top: 30px;
+}

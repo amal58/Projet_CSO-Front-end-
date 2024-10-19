@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-right: -200px;
+}
+
+.form-container {
+    width: 400px;
+    /* Ajustez la largeur selon vos besoins */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Ajoutez des styles spécifiques au bouton Modifier */
+.btn-group button.modify {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Ajoutez des styles spécifiques au bouton Annuler */
+.btn-group button.cancel {
+    background-color: #dc3545;
+    color: white;
+}

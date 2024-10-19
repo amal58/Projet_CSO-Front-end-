@@ -1,0 +1,78 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-container input,
+.form-container select,
+.form-container .react-datepicker-wrapper {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.date-picker-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.date-picker {
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+
+.date-picker:focus {
+    border-color: #1976d2;
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    margin-top: 0.5rem;
+}
+
+.App {
+    margin: 0 auto;
+    /* Centre horizontalement */
+    text-align: center;
+    /* Centre les éléments inline horizontalement */
+    height: 100vh;
+    align-items: center;
+    /* Hauteur de la vue à 100% */
+}
+
+
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Style pour l'étiquette flottante */
+.input-label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: #333;
+}
+
+/* Style pour les champs de saisie */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+/* Style pour mettre en évidence la bordure en rouge en cas d'erreur */
+.input-field.error {
+    border-color: red;
+}

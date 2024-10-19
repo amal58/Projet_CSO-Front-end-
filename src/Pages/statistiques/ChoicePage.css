@@ -1,0 +1,25 @@
+.choice-page {
+ height: 100%;
+  background: #f0f2f5;
+}
+
+.choice-card {
+    margin-top: 20px;
+    margin-left: 10px;
+  text-align: center;
+  height: 400px;
+}
+
+.choice-card .ant-card-cover {
+    margin-top: 20px;
+  margin: 16px 0;
+}
+
+.choice-card p {
+  font-size: 16px;
+  margin: 16px 0;
+}
+
+.choice-card .ant-btn-primary {
+  margin-top: 16px;
+}
